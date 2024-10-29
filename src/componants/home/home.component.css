@@ -1,0 +1,52 @@
+.name{
+    color:#008080c9;
+}
+.icon{
+    margin-top: 25px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon a i {
+    font-size: 1.5rem;
+    box-shadow:1px 1px  5px rgba(0,0,0,0.7);
+    padding: 10px;
+    color: black;
+
+}
+
+.icon a:nth-child(1):hover i{
+    color:blue;
+}
+.icon a:nth-child(2):hover i{
+    color: gray;
+}
+.icon a:nth-child(3):hover i{
+    color:blue;
+}
+/* style cv */
+.cv{
+    margin-top: 35px;
+}
+.b{
+display: inline-block;
+outline: 0;
+border: 0;
+cursor: pointer;
+background-color:#008080c9;
+padding: 0 15px;
+border-radius: 6px;
+color: #fff;
+height: 48px;
+font-size: 18px;
+width: 140px;
+margin-right: 9px;
+}
+.b:hover{
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+    transform: translateY(-2px);
+}
+.b:active{
+    box-shadow: inset 0px 3px 7px #3c4fe0;
+    transform: translateY(2px);
+}

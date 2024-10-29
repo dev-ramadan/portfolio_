@@ -1,0 +1,92 @@
+<div id="home"></div>
+<!-- srart header -->
+<app-nav></app-nav>
+<!-- modale About -->
+ <app-modal></app-modal>
+<!-- start home -->
+<div>
+  <div class="container" style="margin-top: 30px">
+    <div class="row">
+      <div class="col">
+        <h2
+          style="
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 60px;
+          "
+        >
+          I’m <span class="name">Ramadan Mohamed</span>
+        </h2>
+        <ngx-typed-js
+          [strings]="['Developer', 'Fornt-End', 'Freelancer']"
+          [loop]="true"
+          [typeSpeed]="90"
+          [backSpeed]="70"
+        >
+          <h2 style="font-weight: bold; font-size: 40px; margin-bottom: 30px">
+            I’m <span class="typing"></span>
+          </h2>
+        </ngx-typed-js>
+        <div
+          class="col-md-8"
+          style="line-height: 37px; word-spacing: 3px; letter-spacing: 1px"
+        >
+          <!-- <h6 style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight:580;"> I am a passionate developer with a strong focus on creating innovative and user-friendly solutions.</h6>
+       <h6 style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight:580;"> I have a strong background in front-end development and a keen eye for detail .</h6> 
+       <h6 style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-weight:580;"> I am always looking for new challenges and opportunities to grow and learn.</h6> -->
+          <h6 style="font-family: 'Poppins', sans-serif; font-size: 1.3rem">
+            I have experience in developing web applications using
+            HTML,CSS,JavaScript,and various frameworks such as Angular
+          </h6>
+          <h6 style="font-family: 'Poppins', sans-serif; font-size: 1.3rem">
+            I have a strong understanding of design principles and can create
+            visually appealing and functional designs.
+          </h6>
+          <h6 style="font-family: 'Poppins', sans-serif; font-size: 1.3rem">
+            I know Manage the entire project from start to finish. Communication
+            is important to me,So we keep in touch.
+          </h6>
+
+          <!-- I’m a developer experienced in building websites for small and medium-sized businesses.
+   Whether you’re trying to win work, list your services, or create a new online store,
+   I can help. Knows HTML and CSS3, javaScript, jQuery, Bootstrap,
+   and AngularJs Full project management from start to finish Regular communication is important to me,
+   so let’s keep in touch. -->
+          <div class="icon">
+            <a
+              href="https://www.facebook.com/profile.php?id=100015401288905"
+              target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="https://github.com/dev-ramadan" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ramadan-mohamed-828120330/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+        <div class="cv">
+          <a href=""><button class="b">Download CV</button></a>
+          <a href=""><button class="b">Veiw CV</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- start project -->
+<div id="project">
+  <app-project></app-project>
+</div>
+
+<!-- start skils -->
+<div id="skils">
+  <app-skils></app-skils>
+</div>
+
+<!-- start contact -->
+<div id="contact">
+  <app-contact></app-contact>
+</div>
