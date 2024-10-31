@@ -12,66 +12,73 @@
       </div>
   </div>
 
-  <div class="rowform mx-auto ">
-      <div data-aos="fade-up" class=" leftContact p-3  mb-5 rounded-3">
-          <img src="contact.jpg" class="w-100 rounded-2" alt="contact">
-          <h4 class="mt-4 fw-bold text-danger">Ramadan Mohamed</h4>
-          <p>Front-End Devoleper</p>
-          <p class="lh-lg">Creative and detail-oriented Front-End Developer with a passion for building
-              responsive,
-              user-friendly web applications.</p>
-          <div class="links  mt-4">
-              <p class="fined text-uppercase pb-2">find with me</p>
-              <ul class="d-flex gap-3 p-0 m-0">
-                  <a target="_blank" class="text-dark p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
-                      href="https://www.facebook.com/profile.php?id=100015401288905">
-                      <li class="list-unstyled "><i class="fa-brands fa-facebook-f">
+  <div class="rowform mx-auto container">
+    <div class="row">
+        <div class="col-md-6">
+            <div data-aos="fade-up" class=" leftContact p-3  mb-5 rounded-3 w-100">
+    <img src="contact.jpg" class="w-100 rounded-2" alt="contact">
+    <h4 class="mt-4 fw-bold text-danger">Ramadan Mohamed</h4>
+    <p>Front-End Devoleper</p>
+    <p class="lh-lg">Creative and detail-oriented Front-End Developer with a passion for building
+        responsive,
+        user-friendly web applications.</p>
+    <div class="links  mt-4">
+        <p class="fined text-uppercase pb-2">find with me</p>
+        <ul class="d-flex gap-3 p-0 m-0">
+            <a target="_blank" class="text-dark p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
+                href="https://www.facebook.com/profile.php?id=100015401288905">
+                <li class="list-unstyled "><i class="fa-brands fa-facebook-f">
 
-                          </i>
-                      </li>
-                  </a>
+                    </i>
+                </li>
+            </a>
 
-                  <a target="_blank" class="text-dark p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
-                      href="https://github.com/dev-ramadan">
-                      <li class="list-unstyled "><i class="fa-brands fa-github">
-                          </i>
-                      </li>
-                  </a>
-                  <a target="_blank" class="text-dark p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
-                      href="https://www.linkedin.com/in/ramadan-mohamed-828120330/">
-                      <li class="list-unstyled "><i class="fa-brands fa-linkedin-in">
-                          </i>
-                      </li>
-                  </a>
-              </ul>
-          </div>
-      </div>
-      <div data-aos="fade-up" class="  rightContact rounded  p-3 mb-5   ">
-          <form action="https://formsubmit.co/mohamedrabee556677@gmail.com" method="POST">
-              <div class="mb-4">
-                  <label for="NameInput" class="form-label fs-6 fw-bolder">Name:</label>
-                  <input type="text" name="name" class="form-control p-2" id="NameInput" placeholder="your Name" [(ngModel)]="form.from_name">
-              </div>
-              <div class="mb-4">
-                  <label for="exampleFormControlInput1" class="form-label fs-6 fw-bolder   ">Email
-                      address:</label>
-                  <input type="email" name="email" class="form-control p-2" id="exampleFormControlInput1"
-                      placeholder="name@example.com" [(ngModel)]="form.email">
-              </div>
-              <div class="mb-4">
-                  <label for="PhoneInput" class="form-label fs-6 fw-bolder">Phone:</label>
-                  <input type="tel" name="tel" class="form-control p-2" id="PhoneInput" placeholder="123-45-678" [(ngModel)]="form.phone">
-              </div>
-              <div class=" mb-4 ">
-                  <label for="exampleFormControlTextarea1" class="form-label fs-6 fw-bolder ">Message:</label>
-                  <textarea class="form-control p-2 " name="message" id="exampleFormControlTextarea1"
-                      placeholder="Your Message" rows="10" [(ngModel)]="form.message"></textarea>
-              </div>
-              <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
-              <button type="submit" class="btn btnForm fw-bold w-100 fs-5" (click)="send()">SEND</button>
-
-          </form>
-      </div>
-
+            <a target="_blank" class="text-dark p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
+                href="https://github.com/dev-ramadan">
+                <li class="list-unstyled "><i class="fa-brands fa-github">
+                    </i>
+                </li>
+            </a>
+            <a target="_blank" class="text-dark p-3 rounded shadow p-3 mb-5 bg-body-tertiary rounded"
+                href="https://www.linkedin.com/in/ramadan-mohamed-828120330/">
+                <li class="list-unstyled "><i class="fa-brands fa-linkedin-in">
+                    </i>
+                </li>
+            </a>
+        </ul>
+    </div>
+</div>
+        </div>
+        <div class="col-md-6">
+            <div data-aos="fade-up" class="  rightContact rounded  p-3 mb-5 w-100">
+                <form method="POST">
+                    <div class="mb-4">
+                        <label for="NameInput" class="form-label fs-6 fw-bolder">Name:</label>
+                        <input type="text" name="name" class="form-control p-2" id="NameInput" placeholder="your Name" [(ngModel)]="form.from_name">
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label fs-6 fw-bolder   ">Email
+                            address:</label>
+                        <input type="email" name="email" class="form-control p-2" id="exampleFormControlInput1"
+                            placeholder="name@example.com" [(ngModel)]="form.email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="PhoneInput" class="form-label fs-6 fw-bolder">Phone:</label>
+                        <input type="tel" name="tel" class="form-control p-2" id="PhoneInput" placeholder="123-45-678" [(ngModel)]="form.phone">
+                    </div>
+                    <div class=" mb-4 ">
+                        <label for="exampleFormControlTextarea1" class="form-label fs-6 fw-bolder ">Message:</label>
+                        <textarea class="form-control p-2 " name="message" id="exampleFormControlTextarea1"
+                            placeholder="Your Message" rows="10" [(ngModel)]="form.message"></textarea>
+                    </div>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                    <button type="submit" class="btn btnForm fw-bold w-100 fs-5" (click)="send()">SEND</button>
+            
+                </form>
+            </div>
+        </div>
+    </div>
   </div>
 </section>
+
+
