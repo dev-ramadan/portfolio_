@@ -40,7 +40,7 @@ export class ProjectComponent implements OnInit {
       id:4,
       name:'Prayer Time',
       image:'project/time.png',
-      url:'https://prayer-neon.vercel.app/'
+      url:'https://time-prayer-ten.vercel.app/'
     },
     {
       id:5,
