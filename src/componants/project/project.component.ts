@@ -48,5 +48,11 @@ export class ProjectComponent implements OnInit {
       image:'project/slider.png',
       url:'https://dev-ramadan.github.io/slider/'
     },
+      {
+      id:6,
+      name:'App To Do List',
+      image:'project/toDoList.png',
+      url:'https://to-do-list-one-lilac.vercel.app/'
+    },
   ]
 }
